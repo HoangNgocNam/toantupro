@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let login = prompt("Nhap vao day: ");
+    let message = (login == 'Employee') ? 'hello' : (login == 'Director') ? 'Greetings' : (login == '') ? 'No login': '';
+    alert(message);
+</script>
+<script>
+    let login = prompt('nhap vao day ne: ');
+    let message;
+    if (login == 'Employee'){
+        alert('hello');
+    } else if (login == 'Director') {
+        alert('Greeting');
+    } else if (login == ''){
+        alert('no login');
+    } else {
+        alert('');
+    }
+
+
+</script>
+</body>
+</html>
